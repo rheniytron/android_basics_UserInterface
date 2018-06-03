@@ -8,6 +8,9 @@ public class Main extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.day_7_login_box);
+        setContentView(R.layout.day_8_cards_and_guidlines);
+
+
+
     }
 }

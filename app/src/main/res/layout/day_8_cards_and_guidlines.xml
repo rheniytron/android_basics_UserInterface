@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9a161616"
+    android:gravity="center">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_10_corners"
+            android:padding="12dp"
+            android:layout_margin="12dp">
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:id="@+id/image_lady"
+                android:src="@drawable/circle_ladayada"
+                android:layout_marginRight="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name_lady"
+                android:text="limor freid"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:layout_toRightOf="@id/image_lady"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:54PM - MAR 1, 2018"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:id="@+id/date_stamp"
+                android:layout_below="@id/name_lady"
+                android:layout_alignStart="@id/name_lady"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="ijiuhf uhugda hiwggrw ugwi wyg iug wgygw iwgig rgwg wgw gywb wgwgw"
+                android:id="@+id/story"
+                android:layout_below="@id/date_stamp"
+                android:layout_alignStart="@id/date_stamp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_check"
+                android:id="@+id/check_seen"
+                android:layout_below="@id/story"
+                android:layout_alignStart="@id/story"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_reply"
+                android:id="@+id/reply_mgs"
+                android:layout_below="@id/story"
+                android:layout_toStartOf="@id/reply_mgs"
+                android:padding="12dp"/>
+        </RelativeLayout>
+
+</RelativeLayout>
